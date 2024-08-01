@@ -24,7 +24,7 @@
 <header class="header" id="header">
     <nav class="navbar navbar-expand-md navbar-light p-0" style="background-color: rgba(0, 0, 0, 0.123);">
         <div class="container-fluid d-flex ">
-            <h2 class="navbar-brand p-4 fs-3 text-white text-uppercase " href="#">Vino Mago</h2>
+            <h2 class="navbar-brand p-4 fs-4 text-white text-uppercase " href="#">Vino Mago</h2>
                 <button class="navbar-toggler" style="background-color: rgb(230, 230, 230);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,22 +32,22 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <div class="link">                            
-                                <a class="nav-link text-white" href="#">Inicio</a>
+                                <a class="nav-link text-white ms-4" href="#">Inicio</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="link">                            
-                                <a class="nav-link text-white " href="#">Acerca de nosotros</a>
+                                <a class="nav-link text-white ms-4" href="#">Acerca de nosotros</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="link">                            
-                                <a class="nav-link text-white" href="#">Productos</a>
+                                <a class="nav-link text-white ms-4" href="#">Productos</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <div class="link">                            
-                                <a class="nav-link text-white" href="#">Contacto</a>
+                                <a class="nav-link text-white ms-4" href="#">Contacto</a>
                             </div>
                         </li>
                     </ul>
@@ -80,6 +80,7 @@
                     </div>
 
                 </div>
+                <!--
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -88,6 +89,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
                 </button>
+                -->
             </div>
         </div>
 
@@ -105,8 +107,8 @@
                 </div>
 
 
-    <!-- About Start -->
-    <div class="container-fluid py-5 ">
+    <!-- Sobre nosotros -->
+    <div class="container-fluid py-5 bg-white-50">
         <div class="container text-center">
             <div class="section-title">
                 <h4 class="text-center text-uppercase mt-4" style="letter-spacing: 5px;">Sobre nosotros</h4>
@@ -196,7 +198,7 @@
 
 
     <!-- Formulario -->
-    <div class="container-fluid my-5">
+    <div class="container-fluid bg-dark my-5">
         <div class="container">
             <div class="reservation position-relative overlay-top overlay-bottom">
                 <div class="row align-items-center">
@@ -216,29 +218,29 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="text-center p-1" style="background: rgba(10, 10, 10, 0.842); ">
-                            <h1 class="text-white mt-1">Ordena tu vino</h1>
-                            <form class="p-4">
-                                <div class="form-group mb-1">
-                                    <input type="text" class="form-control bg-transparent border-secondary p-4" placeholder="Nombre"
+                        <div class="text-center mt-5 mb-2 bg-dark ">
+                            <h1 class="text-white-50 mt-1">Ordena tu vino</h1>
+                            <form class="p-5">
+                                <div class="form-group mb-2">
+                                    <input type="tex" class="form-control text-secondary bg-transparent border-light p-3" placeholder="Nombre"
                                         required="required" />
                                 </div>
-                                <div class="form-group mb-1">
-                                    <input type="email" class="form-control bg-transparent border-secondary p-4" placeholder="Email"
+                                <div class="form-group mb-2">
+                                    <input type="email" class="form-control text-secondary bg-transparent border-light p-3" placeholder="Email"
                                         required="required" />
                                 </div>
-                                <div class="form-group mb-1">
+                                <div class="form-group mb-2">
                                     <div class="text" id="address" >
-                                        <input type="text" class="form-control bg-transparent border-secondary p-4" placeholder="Direccion">
+                                        <input type="text" class="form-control text-secondary bg-transparent border-light p-3" placeholder="Direccion">
                                     </div>
                                 </div>
-                                <div class="form-group mb-1 ">
+                                <div class="form-group mb-2">
                                     <div class="phone" id="phone" >
-                                        <input type="text" class="form-control bg-transparent border-secondary p-4" placeholder="Telefono">
+                                        <input type="text" class="form-control text-secondary bg-transparent border-light p-3" placeholder="Telefono">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <select class="form-select bg-transparent text-secondary" aria-label="Default select example border-secondary px-4" style="height: 65px;">
+                                    <select class="form-select bg-transparent text-secondary" aria-label="Default select example border-light px-4" style="height: 55px;">
                                         <option selected>Vino</option>
                                         <option value="1">Tradicional</option>
                                         <option value="2">Gengibre</option>
@@ -256,7 +258,7 @@
             </div>
         </div>
     </div>
-    <!-- Formulario -->
+    <!-- Fin formulario -->
 
 
     <!-- Testimonios -->
@@ -294,7 +296,7 @@
                                     <img src="img/testimonial-2.jpg" style="max-height: 400px; max-width: 400px;" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">Carolina</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ab porro minima commodi fugit quasi.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. ab porro minima commodi fugit quasi.</p>
                                         </div>
                                             <div class="card-footer">
                                                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -328,7 +330,7 @@
                                     <img src="img/testimonial-4.jpg" style="max-height: 400px; max-width: 400px;" class="card-img-top" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">Jhon</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quibusdam, necessitatibus nam sit ut placeat.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quibusdam, nam sit ut placeat.</p>
                                         </div>
                                             <div class="card-footer">
                                                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -360,27 +362,35 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid footer text-white  pt-1 px-0 position-relative overlay-top" style="background-color: rgba(0, 0, 0, 0.692);">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+    <div class="container-fluid footer text-white-50  pt-1 px-0 position-relative overlay-top" style="background-color: rgb(51, 51, 51);">
+        <div class="row mx-0 pt-4 px-sm-3 px-lg-2 ">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Contacto</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Dapa, Valle del Cauca - Colombia </p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+57 317 5513283</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>vinomago@gmail.com</p>
             </div>
+            <!--iconos redes sociales-->
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Redes sociales</h4>
+                <p>Síguenos en nuestras redes para conocer mas acerca de nosotros y eventos de venta directa.</p>
                 <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square p-2 me-2" href="#">
+                        <img src="img/facebook.svg" alt="">
+                    </a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square p-2 me-2" href="#">
+                        <img src="img/instagram.svg" alt="">
+                    </a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square p-2 " href="#">
+                        <img src="img/tik-tok.svg" alt="">
+                    </a>
+                    
                 </div>
             </div>
+            <!--Noticias y formulario-->
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Noticias</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <p>Regístrate para recibir ofertas únicas mediante correo electrónico.</p>
                 <div class="w-100">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 20px;" placeholder="Ingrese su correo">
@@ -391,8 +401,9 @@
                 </div>
             </div>
         </div>
+        <!--copyright-->
         <div class="container-fluid text-center text-white border-top  py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">VinoMago</a>. All Rights Reserved.</a></p>
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold text-decoration-none" href="#">VinoMago</a>. Todos los derechos reservados.</a></p>
 
 
         </div>
